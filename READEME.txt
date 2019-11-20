@@ -1,0 +1,16 @@
+读取配置文件成功
+已将将配置文件读入到map中，形成对应关系
+map中存入顺序
+0 Id-------->
+1 Log process level 2 type-------->
+2 Find method-------->
+3 Log type--------> 1是设备信息 2是API信息
+4 Explain-------->
+5 String lookup type-------->
+6 Call time-------->
+7 Log process type ID-------->
+8 Find string-------->
+9 Display(012)-------->
+10 Query success result description-------->
+11 Query failure result description-------->
+12 Display information-------->

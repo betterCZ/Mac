@@ -1,0 +1,101 @@
+﻿生成启动时间为 2019/11/18 14:39:22。
+     1>项目“C:\Users\7invensun\Documents\Visual Studio 2013\Projects\logCheck\check\check.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt logInfoCheck.cpp main1.cpp
+         logInfoCheck.cpp
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(45): warning C4251: “FileReader::m_strFileName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“FileReader”的客户端使用
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(46): warning C4251: “FileReader::m_strconfigFileName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“FileReader”的客户端使用
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(48): warning C4251: “FileReader::m_mapConfig”: class“std::unordered_map<std::string,std::vector<std::string,std::allocator<_Ty>>,std::hash<_Kty>,std::equal_to<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>”需要有 dll 接口由 class“FileReader”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+         ,            _Kty=std::string
+                 ]
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(49): warning C4251: “FileReader::m_vFileByLineToArry”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“FileReader”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(50): warning C4251: “FileReader::m_vLogTime”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“FileReader”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(70): warning C4251: “TextQuery::m_lines”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“TextQuery”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(71): warning C4251: “TextQuery::m_wordInLine”: class“std::map<std::string,std::set<int,std::less<_Kty>,std::allocator<_Ty>>,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::allocator<std::pair<const std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::set<_Kty,std::less<_Ty>,std::allocator<_Ty>>>>>”需要有 dll 接口由 class“TextQuery”的客户端使用
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=int
+                 ]
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(82): warning C4251: “InformationSearch::m_configName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InformationSearch”的客户端使用
+     1>logInfoCheck.cpp(54): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(93): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(123): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(222): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(375): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(380): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(390): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(403): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(429): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(452): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(456): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(478): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(491): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(519): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(532): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(558): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(706): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(736): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(738): warning C4018: “<”: 有符号/无符号不匹配
+     1>logInfoCheck.cpp(783): warning C4018: “<”: 有符号/无符号不匹配
+         main1.cpp
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(45): warning C4251: “FileReader::m_strFileName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“FileReader”的客户端使用
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(46): warning C4251: “FileReader::m_strconfigFileName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“FileReader”的客户端使用
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(48): warning C4251: “FileReader::m_mapConfig”: class“std::unordered_map<std::string,std::vector<std::string,std::allocator<_Ty>>,std::hash<_Kty>,std::equal_to<_Ty>,std::allocator<std::pair<const _Kty,std::vector<_Ty,std::allocator<_Ty>>>>>”需要有 dll 接口由 class“FileReader”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+         ,            _Kty=std::string
+                 ]
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(49): warning C4251: “FileReader::m_vFileByLineToArry”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“FileReader”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(50): warning C4251: “FileReader::m_vLogTime”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“FileReader”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(70): warning C4251: “TextQuery::m_lines”: class“std::vector<std::string,std::allocator<_Ty>>”需要有 dll 接口由 class“TextQuery”的客户端使用
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(71): warning C4251: “TextQuery::m_wordInLine”: class“std::map<std::string,std::set<int,std::less<_Kty>,std::allocator<_Ty>>,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char>>>,std::allocator<std::pair<const std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::set<_Kty,std::less<_Ty>,std::allocator<_Ty>>>>>”需要有 dll 接口由 class“TextQuery”的客户端使用
+                 with
+                 [
+                     _Kty=int
+         ,            _Ty=int
+                 ]
+     1>c:\users\7invensun\documents\visual studio 2013\projects\logcheck\check\FileReader.h(82): warning C4251: “InformationSearch::m_configName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“InformationSearch”的客户端使用
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\logCheck.res" logCheck.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\7invensun\Documents\Visual Studio 2013\Projects\logCheck\check\Release\logCheckDll.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Release\check.Form1.resources /ASSEMBLYRESOURCE:Release\check.Resources.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\7invensun\Documents\Visual Studio 2013\Projects\logCheck\check\Release\logCheckDll.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\7invensun\Documents\Visual Studio 2013\Projects\logCheck\check\Release\logCheckDll.lib" /MACHINE:X86 /SAFESEH Release\logCheck.res
+         Release\logInfoCheck.obj
+         Release\main1.obj
+            正在创建库 C:\Users\7invensun\Documents\Visual Studio 2013\Projects\logCheck\check\Release\logCheckDll.lib 和对象 C:\Users\7invensun\Documents\Visual Studio 2013\Projects\logCheck\check\Release\logCheckDll.exp
+         正在生成代码
+         已完成代码的生成
+         check.vcxproj -> C:\Users\7invensun\Documents\Visual Studio 2013\Projects\logCheck\check\Release\logCheckDll.exe
+     1>已完成生成项目“C:\Users\7invensun\Documents\Visual Studio 2013\Projects\logCheck\check\check.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.68
